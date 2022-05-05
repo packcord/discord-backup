@@ -21,6 +21,6 @@ export interface BackupData {
     emojis: EmojiData[];
     members: MemberData[];
     createdTimestamp: number;
-    guildID: string;
+    guildId: string;
     id: Snowflake;
 }
